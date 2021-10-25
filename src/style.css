@@ -3,7 +3,7 @@ body {
 }
 
 h1 {
-  color: #878787;
+  color: #000000;
   font-size: 24px;
   font-weight: 100;
   line-height: 29px;
@@ -37,11 +37,24 @@ li::first-letter {
 .weather-app {
   padding: 20px;
   border: 1px solid #dadde1;
-  border-radius: 5px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 11px 1px rgba(0, 0, 0, 0.21);
 }
 
 .overview {
   margin-bottom: 20px;
+}
+
+.btn {
+  color: #fff;
+  background-color: #000000;
+  border-color: #000000;
+}
+
+.btn:hover {
+  color: #000000;
+  background-color: transparent;
+  border-color: #000000;
 }
 
 .weather-temperature img {
